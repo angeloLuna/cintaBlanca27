@@ -1,5 +1,13 @@
 
+h2 {
+  border: 2px solid;
+  height: 100px;
+}
 
+span {
+  border: 1px solid;
+  height: 100px;
+}
 
 .principal {
   border: 1px solid;
