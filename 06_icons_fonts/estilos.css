@@ -1,3 +1,11 @@
+/* importar tipografia */
+@font-face {
+  /* como se va a llamar */
+  font-family: Srisakdi;
+  /* donde esta el archivo */
+  src: url("fonts/fuente.ttf");
+}
+
 body {
   margin: 0;
 }
@@ -89,10 +97,12 @@ body {
 }
 
 .nav-content li {
+  font-family: 'Coiny', cursive;
   color: rgb(99, 99, 99);
 }
 
 .nav-content li i {
-color: rgb(99, 99, 99);;
+color: rgb(99, 99, 99);
+font-size: 24px;
 }
 
