@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+  height: 200px;
+  background-image: url("https://store-images.s-microsoft.com/image/apps.56149.13510798887023509.52cb7b9d-27cf-417d-b33e-e4e758263928.1129934f-d053-41a1-935a-20913a56ea70?mode=scale&q=90&h=720&w=1280");
+  background-size: cover;
+  background-position-y: -100px;
+}
+
+.color {
+  height: 400px;
+  /* border: 1px solid; */
+  background: rgb(46, 119, 153);
+}
+
+.perfil {
+  border-radius: 50%;
+  margin-bottom: -190px;
+}
+
+
