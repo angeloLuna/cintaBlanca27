@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <input type="radio" name="pizzas" id="mexicana">
+  <label for="mexicana">
+    <img src="https://t1.rg.ltmcdn.com/es/images/2/1/2/img_pizza_mexicana_7212_paso_7_600.jpg" alt="">
+  </label>
+  <input type="radio" name="pizzas" id="pastor">
+  <label for="pastor">Pizza Pastor</label>
+  <input type="radio" name="pizzas" id="laFea">
+  <label for="laFea">Que oso</label>
+
+
+  <button id="button">Click</button>
+
+  <script>
+    let mexicana = document.getElementById('mexicana')
+    let button = document.getElementById('button')
+
+
+    button.addEventListener('click', () => {
+      console.log(mexicana.checked)
+    })
+
+
+
+  </script>
+
+
+
+</body>
+</html>
